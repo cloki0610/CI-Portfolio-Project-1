@@ -1,9 +1,7 @@
 nav ul  {
     list-style-type: none;
 }
-nav {
-    margin: 20px 0 20px 0;
-}
 nav ul li{
     display: inline-block;
+    margin: 20px 0 20px 0;
 }
