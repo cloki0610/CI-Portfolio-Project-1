@@ -4,10 +4,10 @@
     border: none;
 }
 
-nav ul  {
+#menu  {
     list-style-type: none;
 }
-nav ul li{
+#menu ul li{
     display: inline-block;
     margin: 0 20px 0 20px;
 }
