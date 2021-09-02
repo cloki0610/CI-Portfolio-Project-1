@@ -119,11 +119,3 @@ footer  {
     margin: 0 40px;
     font-size: 280%;
 }
-
-#menu  {
-    list-style-type: none;
-}
-#menu ul li{
-    display: inline-block;
-    margin: 0 20px 0 20px;
-}

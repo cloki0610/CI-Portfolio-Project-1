@@ -19,7 +19,54 @@ h1, h2, h3  {
 
 /* style header */
 
+header  {
+    display: flex;
+    vertical-align: top;
+    justify-content: space-between;
+}
+
+header nav  {
+    width: 60%;
+}
+
+#logo   {
+    width: 40%;
+    height: 60px;
+    font-size: 280%;
+}
+
+#menu    {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-size: 1rem;
+}
+
+#menu li{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu li:hover{
+    background-color: #fafafa;
+    color: #3a3a3a;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.active {
+    border-bottom: 1px solid #fafafa;
+}
 /* style submenu */
+
+
 
 /* style main section */
 
@@ -56,9 +103,6 @@ footer  {
     font-size: 280%;
 }
 
-#menu  {
-    list-style-type: none;
-}
 #menu ul li{
     display: inline-block;
     margin: 0 20px 0 20px;
