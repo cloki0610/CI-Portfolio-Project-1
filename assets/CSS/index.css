@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Permanent+Marker&display=swap');
+
+*   {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body    {
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3  {
+    font-family: 'Permanent Marker', cursive;
+    text-transform: uppercase;
+}
+
+/* style index.html*/
+
+#ent-title  {
+    font-size: 150%;
+    text-align: center;
+    padding: 80px 0;
+    background: #3a3a3a;
+    color: #fafafa;
+}
+
+#entrance   {
+    text-align: center;
+    background: #3a3a3a;
+    color: #fafafa;
+}
+
+#doh, #dow, #dol {
+    display: inline-flex;
+    flex-direction: column;
+    vertical-align: top;
+    width: 25%;
+    height: 200px;
+    margin: 0 1%;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a > div {
+    background-color: #3a3a3a;
+    font-family: 'Permanent Marker', cursive;
+    margin: auto;
+    padding: 15px 25px;
+}
+
+a > div:hover {
+    background-color: #fafafa;;
+    color: #3a3a3a;
+}
+
+#dow    {
+    background-color: #4d4dff;
+}
+
+#doh    {
+    background-color: #ffd306;
+}
+
+#dol    {
+    background-color: #4dff4d;
+}
+
+#giveaway   {
+    background-color: #8600ff;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 100px;
+    margin: 20px 10%;
+}
+
+#trailer    {
+    text-align: center;
+    background: #3a3a3a;
+    color: #fafafa;
+    padding-top: 40px;
+}
+
+/* style footer*/
+footer  {
+    display: inline-flex;
+    width: 100%;
+    background-color: lightgray;
+    color: #3a3a3a;
+}
+
+#contacts   {
+    width: 50%;
+}
+
+#contacts p{
+    font-size: 120%;
+}
+
+#social-networks    {
+    width: 50%;
+    color: #3a3a3a;
+}
+
+#social-networks ul{
+    list-style-type: none;
+}
+
+#social-networks ul li  {
+    display: inline-block;
+    margin: 0 40px;
+    font-size: 280%;
+}
+
+#menu  {
+    list-style-type: none;
+}
+#menu ul li{
+    display: inline-block;
+    margin: 0 20px 0 20px;
+}

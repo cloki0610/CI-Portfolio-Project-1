@@ -1,7 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Permanent+Marker&display=swap');
+
 *   {
     margin: 0;
     padding: 0;
     border: none;
+}
+
+body    {
+    font-family: 'Lato', sans-serif;
+    background: #3a3a3a;
+    color: #fafafa;
+}
+
+h1, h2, h3  {
+    font-family: 'Permanent Marker', cursive;
+    text-transform: uppercase;
+}
+
+/* style header */
+
+/* style submenu */
+
+/* style main section */
+
+/* style form */
+
+/* style footer */
+footer  {
+    display: inline-flex;
+    width: 100%;
+    background-color: lightgray;
+    color: #3a3a3a;
+}
+
+#contacts   {
+    width: 50%;
+}
+
+#contacts p{
+    font-size: 120%;
+}
+
+#social-networks    {
+    width: 50%;
+    color: #3a3a3a;
+}
+
+#social-networks ul{
+    list-style-type: none;
+}
+
+#social-networks ul li  {
+    display: inline-block;
+    margin: 0 40px;
+    font-size: 280%;
 }
 
 #menu  {
