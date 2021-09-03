@@ -24,6 +24,7 @@ header  {
     display: flex;
     vertical-align: top;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header nav  {
@@ -31,9 +32,9 @@ header nav  {
 }
 
 #logo   {
-    width: 40%;
+    width: 35%;
     height: 60px;
-    font-size: 280%;
+    font-size: 260%;
 }
 
 #menu    {
@@ -75,6 +76,12 @@ a {
 .active {
     border-bottom: 1px solid #fafafa;
 }
+
+#hero-img   {
+    height: 400px;
+    width: 100%;
+    background: url('../images/mothercrystal.jpg') no-repeat center center;
+}
 /* style submenu */
 
 aside   {
@@ -84,7 +91,7 @@ aside   {
     width: 30%;
     position: fixed;
     left: 0;
-    top: 150px;
+    bottom: 50px;
     line-height: 30px;
 }
 
@@ -120,6 +127,86 @@ hr  {
 
 /* style form */
 
+#form-intro {
+    text-align: left;
+    font-size: 130%;
+    margin: 80px 10%;
+    padding: 20px 0 60px 40px;
+    background-color: #F8D210;
+    color: #3a3a3a;
+}
+
+#form-intro h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#form-section   {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 28px;
+    line-height: 50px;
+    margin-bottom: 150px;
+}
+
+#form-section h3    {
+    font-size: 160%;
+    margin-bottom: 5%;
+}
+
+.form-input {
+    background: transparent;
+    color: #fafafa;
+    font-size: 1.6rem;
+    width: 25%;
+    height: 2rem;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+#form-section select   {
+    background-color: #3a3a3a;
+    color: #fafafa;
+    text-align: center;
+}
+
+#feedback   {
+    background: transparent;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    font-size: 1.6rem;
+    width: 35%;
+    height: 400px;
+}
+
+input[type=submit], input[type=reset]   {
+    width: 35%;
+    height: 50px;
+    background-color: #fafafa;
+    color: #3a3a3a;
+    font-size: 80%;
+    font-family: 'Permanent Marker', cursive;
+    padding: 10px 20px;
+    margin: 5px 0;
+}
+
+input[type=submit]:hover, input[type=reset]:hover{
+    animation: button-change 3s;
+}
+
+@keyframes button-change {
+    from    {
+        background-color: #fafafa;
+        color: #3a3a3a;
+    }
+    to  {
+        background-color: #3a3a3a;
+        color: #fafafa;
+    }
+}
+
 /* style footer */
 footer  {
     display: inline-flex;
@@ -149,9 +236,4 @@ footer  {
     display: inline-block;
     margin: 0 40px;
     font-size: 280%;
-}
-
-#menu ul li{
-    display: inline-block;
-    margin: 0 20px 0 20px;
 }
