@@ -8,7 +8,8 @@ FF14 is one of most well-known MMORPG in thr world. And there are few different 
 ## =Features=
 ### Existing Features
 #### Index
-* 
+* entrance
+  An entrance page to redirect user to other four pages.
 * 
 
 #### Guides(doh.html, dow.html, dow.html)
