@@ -91,7 +91,7 @@ aside   {
     width: 30%;
     position: fixed;
     left: 0;
-    bottom: 50px;
+    bottom: 40%;
     line-height: 30px;
 }
 
@@ -237,3 +237,31 @@ footer  {
     margin: 0 40px;
     font-size: 280%;
 }
+
+/*  media queries  */
+/*  for larger to medium screen size from 1200px wide and down    */
+
+@media only screen and (max-width: 1300px) {
+    header  {
+        font-size: 0.8rem;
+        flex-direction: column;
+    }
+    #logo   {
+        width: 100%;
+    }
+
+    header nav {
+        width: 100%;
+    };
+
+    aside   {
+        bottom: 15%;
+        font-size: 100%;
+    }
+    
+}
+
+/*  for larger to medium screen size from 950px wide and down    */
+
+
+/*  for small screen size from 800px wide and down    */
