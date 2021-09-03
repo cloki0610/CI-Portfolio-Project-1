@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    scroll-behavior: smooth;
 }
 
 body    {
@@ -52,8 +53,18 @@ header nav  {
 }
 
 #menu li:hover{
-    background-color: #fafafa;
-    color: #3a3a3a;
+    animation: hover-change 3s;
+}
+
+@keyframes hover-change {
+    from    {
+        background-color: #3a3a3a;
+        color: #fafafa;
+    }
+    to  {
+        background-color: #fafafa;
+        color: #3a3a3a;
+    }
 }
 
 a {
@@ -66,9 +77,46 @@ a {
 }
 /* style submenu */
 
+aside   {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 150%;
+    float: left;
+    width: 30%;
+    position: fixed;
+    left: 0;
+    top: 150px;
+    line-height: 30px;
+}
 
+aside nav a:hover   {
+    border-bottom: 1px solid #fafafa;
+}
 
 /* style main section */
+
+#main   {
+    padding-top: 70px;
+    float: right;
+    width: 70%;
+    line-height: 30px;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+#main h2{
+    font-size: 180%;
+    text-align: center;
+}
+
+hr  {
+    border: 1px solid #fafafa;
+    margin: 15px 0;
+}
+
+#main img {
+    width: 80%;
+    margin-bottom: 100px;
+}
 
 /* style form */
 

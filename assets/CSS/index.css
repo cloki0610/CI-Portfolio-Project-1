@@ -40,6 +40,7 @@ h1, h2, h3  {
     margin: 0 1%;
     align-items: center;
     justify-content: center;
+    color: #3a3a3a;
 }
 
 a {
@@ -48,15 +49,25 @@ a {
 }
 
 a > div {
-    background-color: #3a3a3a;
+    background-color: inherit;
     font-family: 'Permanent Marker', cursive;
     margin: auto;
     padding: 15px 25px;
 }
 
 a > div:hover {
-    background-color: #fafafa;;
-    color: #3a3a3a;
+    animation: hover-change 3s;
+}
+
+@keyframes hover-change {
+    from    {
+        background-color: inherit;
+        color: #3a3a3a;
+    }
+    to  {
+        background-color: #3a3a3a;
+        color: #fafafa;
+    }
 }
 
 #dow    {
@@ -73,6 +84,7 @@ a > div:hover {
 
 #giveaway   {
     background-color: #8600ff;
+    color: #3a3a3a;
     display: inline-flex;
     flex-direction: column;
     align-items: center;
