@@ -86,12 +86,12 @@ a {
 
 aside   {
     font-family: 'Permanent Marker', cursive;
-    font-size: 150%;
+    font-size: 100%;
     float: left;
     width: 30%;
     position: fixed;
     left: 0;
-    bottom: 40%;
+    bottom: 15%;
     line-height: 30px;
 }
 
@@ -241,27 +241,92 @@ footer  {
 /*  media queries  */
 /*  for larger to medium screen size from 1200px wide and down    */
 
-@media only screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     header  {
         font-size: 0.8rem;
         flex-direction: column;
     }
     #logo   {
         width: 100%;
+        text-align: center;
     }
 
     header nav {
         width: 100%;
     };
-
-    aside   {
-        bottom: 15%;
-        font-size: 100%;
-    }
-    
 }
 
 /*  for larger to medium screen size from 950px wide and down    */
+@media screen and (max-width: 950px) {
+    /*  header  */
+    #menu   {
+        flex-direction: column;
+    }
 
+    #menu li{
+        width: 100%;
+        padding: 10px 0;
+    }
 
-/*  for small screen size from 800px wide and down    */
+    .active {
+        background-color: #fafafa;
+        color: #3a3a3a;
+    }
+
+    #hero-img   {
+        margin-top: 30%;
+    }
+
+    /*   aside   */
+    aside   {
+        clear: both;
+        position: relative;
+        width: 100%;
+        text-align: center;
+        font-size: 180%;
+        line-height: 35px;
+    }
+
+    /*  main    */
+    #main   {
+        clear: both;
+        width: 100%;
+    }
+    
+    .main-contents  {
+        margin: 0 15px;
+        line-height: 40px;
+    }
+
+    /*  footer  */
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        line-height: 40px;
+    }
+
+    #contacts   {
+        width: 100%;
+    }
+
+    #social-networks    {
+        width: 100%;
+    }
+
+    /*  form    */
+    .form-input {
+        margin-top: 25px;
+        width: 90%;
+    }
+
+    #feedback   {
+        margin-top: 25px;
+        width: 90%;
+    }
+
+    input[type=submit], input[type=reset] {
+        margin-top: 25px;
+        width: 90%;
+    }
+}
