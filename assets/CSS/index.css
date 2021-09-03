@@ -102,7 +102,7 @@ a > div:hover {
 #trailer    {
     text-align: center;
     color: #fafafa;
-    padding-top: 40px;
+    padding: 40px 0 200px 0;
     font-size: 240%;
 }
 
