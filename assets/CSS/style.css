@@ -73,8 +73,24 @@ a {
     color: inherit;
 }
 
-.active {
-    border-bottom: 1px solid grey;
+.active-doh {
+    border-bottom: 5px solid #ffd306;
+    box-sizing: border-box;
+}
+
+.active-dow {
+    border-bottom: 5px solid #4d4dff;
+    box-sizing: border-box;
+}
+
+.active-dol {
+    border-bottom: 5px solid #4dff4d;
+    box-sizing: border-box;
+}
+
+.active-giveaway {
+    border-bottom: 5px solid #8600ff;
+    box-sizing: border-box;
 }
 
 #hero-img   {
