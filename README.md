@@ -9,7 +9,8 @@ FF14 is one of most well-known MMORPG in the world. And there are few different 
 ### =Existing Features=
 #### Landing Page
 * Entrance section
-  A section with 4 div rectangle with a button to redirect user to other four pages.
+  A section with four button within four rectangle to redirect user to other four pages.
+
   ![entrance](readme-img/entrance.png)
 
 * Trailer section
@@ -19,38 +20,46 @@ FF14 is one of most well-known MMORPG in the world. And there are few different 
 
 * Footer
   This section include a e-mail link and four social media icons, if you click the icon the website will open the social media page in new tab.
+
   ![footer](readme-img/footer.png)
 
 #### Guides(doh.html, dow.html, dow.html)
 The content and images may be different, but these three website build by the same structure.
 * Navigation bar
   The navigation bar show the title on the left side, and four hyper link on the right side to allow user discover another pages in this website. If user enter the website by mobile, the navigation bar will arranged vertically.
+
   ![navbar](readme-img/navbar.png)
 
 * Sub-menu
   This section provide a sub-menu and internal links for user just want to read specific paragraph.
+
   ![submenu](readme-img/submenu.png)
 
 * Main content
   This section included the complete guide for specific type of class.
+
   ![contents](readme-img/maincontent.png)
 
 * Footer
   This section include a e-mail link and four social media icons, if you click the icon the website will open the social media page in a new tab.
+
   ![footer](readme-img/footer.png)
 
 #### Giveaway event register form
 * This section also have a nevigator bar in header
 * Introduction section
   This section shows the details user should know before they enter any information.
+
   ![form-introdution](readme-img/form-intro.png)
 
 * Form seciton
   This section include a form with reset and submit button. User who can complete this form and send the required information to join our giveaway event in game. 
+
   ![form](readme-img/form.png)
 
 * Footer
   This section include a e-mail link and four social media icons, if you click the icon the website will open the social media page in a new tab.
+
   ![footer](readme-img/footer.png)
 
 ### Features Left to Implement
@@ -67,13 +76,32 @@ The content and images may be different, but these three website build by the sa
 
 
 ## =Deployment=
+The website use git for version control, and deploy in Github by following step:
 
+* This website create from Code Institue [template for Gitpod](https://github.com/Code-Institute-Org/gitpod-full-template).
+* Every change in this project commit by the VS Code source control function.
+* git push command was used to push all committed changes to the GitHub repository.
+* When the website almost complete, I login to my GitHub Repository Setting page.
+* In the Page section I click the dropdown list under "Scource" and select "main".
+* At last I deploy the website after press the "Save" button.
 
 
 ## =Credits=
-
 ### Content
+  Contents and information are come from:
+* [Gamer Escape](https://ffxiv.gamerescape.com/wiki/Main_Page)
+* [FFXIV Wiki](https://ffxiv.consolegameswiki.com/wiki/FF14_Wiki)
+* And modify with my personal opinion
+
+### Images
+* All images are all Final Fantasy 14 in-game screenshot.
 
 ### Media
+* This game trailer come from [Youtube FF14 Offical Channel](https://www.youtube.com/embed/zTTtd6bnhFs)
 
 ### Tools
+* Chrome Lighthouse and Chrome Developer Tools
+* HTML - W3C Validator
+* CSS - Jigsaw Validator
+* Gitpod
+* Github
