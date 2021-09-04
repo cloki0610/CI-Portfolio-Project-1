@@ -74,7 +74,7 @@ a {
 }
 
 .active {
-    border-bottom: 1px solid #fafafa;
+    border-bottom: 1px solid grey;
 }
 
 #hero-img   {
@@ -85,7 +85,6 @@ a {
 /* style submenu */
 
 aside   {
-    font-family: 'Permanent Marker', cursive;
     font-size: 100%;
     float: left;
     width: 30%;
@@ -253,7 +252,7 @@ footer  {
 
     header nav {
         width: 100%;
-    };
+    }
 }
 
 /*  for larger to medium screen size from 950px wide and down    */

@@ -68,8 +68,24 @@ The content and images may be different, but these three website build by the sa
 * Add a house purchasing and furnish guide.
 
 ## =Testing=
-
+* All things have been tested in different screen sizes, only in galaxy fold will be invalid.
+* All links have been checked and direct to the correct pages.
+* All links to external websites open in a new browser.
+* All buttonanimation in index.html and the nav bar are functional when user hover over the link.
+* Video in index.html is functional and responsive.
 ### Validator Testing
+Following test are using [HTML - W3C HTML Validator](https://validator.w3.org/) and [CSS - Jigsaw CSS Validator]().
+#### HTTP test
+All script have been tested without important error.
+
+![html-test-result](readme-img/html_test.png)
+
+#### CSS test
+index.css and style.css both pass are all passed test.
+
+![css-test-result](readme-img/css_test.png)
+
+#### Lighthouse
 
 ### Unfixed Bugs
 
