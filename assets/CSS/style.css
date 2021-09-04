@@ -137,6 +137,7 @@ hr  {
 
 #main img {
     width: 80%;
+    height: auto;
     margin-bottom: 100px;
 }
 
