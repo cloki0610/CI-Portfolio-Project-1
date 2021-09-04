@@ -72,7 +72,7 @@ The content and images may be different, but these three website build by the sa
 * All links have been checked and direct to the correct pages.
 * All links to external websites open in a new browser.
 * All buttonanimation in index.html and the nav bar are functional when user hover over the link.
-* Video in index.html is functional and responsive.
+* Video in index.html is functional and responsive by CSS.
 ### Validator Testing
 Following test are using [HTML - W3C HTML Validator](https://validator.w3.org/) and [CSS - Jigsaw CSS Validator]().
 #### HTTP test
@@ -86,9 +86,28 @@ index.css and style.css both pass are all passed test.
 ![css-test-result](readme-img/css_test.png)
 
 #### Lighthouse
+I used lighthouse in Chrome Dev Tools for test the performance of the website.
+And the result is in following:
+* index.html
+
+![index-test-result](readme-img/index-test.png)
+* dow.html
+
+![dow-test-result](readme-img/dox-test.png)
+* doh.html
+
+![doh-test-result](readme-img/dox-test.png)
+* dol.html
+
+![dol-test-result](readme-img/dox-test.png)
+* giveaway.html
+
+![giveaway-test-result](readme-img/giveaway-test.png)
+
 
 ### Unfixed Bugs
-
+The lower result prblem in index.html seems related to design problem and need to be re-design.
+I have tried my best but this page will be re-design in future.
 
 
 ## =Deployment=
@@ -107,10 +126,10 @@ The website use git for version control, and deploy in Github by following step:
   Contents and information are come from:
 * [Gamer Escape](https://ffxiv.gamerescape.com/wiki/Main_Page)
 * [FFXIV Wiki](https://ffxiv.consolegameswiki.com/wiki/FF14_Wiki)
-* And modify with my personal opinion
+* And added and modified in my personal opinion
 
 ### Images
-* All images are all Final Fantasy 14 in-game screenshot.
+* All images are Final Fantasy 14 in-game screenshot.
 
 ### Media
 * This game trailer come from [Youtube FF14 Offical Channel](https://www.youtube.com/embed/zTTtd6bnhFs)
