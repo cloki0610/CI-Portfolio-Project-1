@@ -1,17 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Permanent+Marker&display=swap');
 
+
+/*  clear the default setting and add scroll-behavior    */
 *   {
     margin: 0;
     padding: 0;
     border: none;
 }
 
+/*   set font-family and default color   */
 body    {
     font-family: 'Lato', sans-serif;
     background: #3a3a3a;
     letter-spacing: 0.3rem;
 }
 
+/*   style header   */
 h1, h2, h3  {
     font-family: 'Permanent Marker', cursive;
     text-transform: uppercase;
@@ -26,7 +30,7 @@ h2 {
     font-size: 100%;
 }
 
-/* style index.html*/
+/* style entrance section   */
 
 #ent-title  {
     font-size: 150%;
@@ -59,30 +63,22 @@ a {
     color: inherit;
 }
 
-a > div {
-    background-color: inherit;
-    font-family: 'Permanent Marker', cursive;
-    margin: auto;
-    padding: 15px 25px;
-}
-
 a > div:hover {
     animation: hover-change 3s;
 }
 
 @keyframes hover-change {
     from    {
-        background-color: inherit;
         color: #3a3a3a;
     }
     to  {
-        background-color: #3a3a3a;
-        color: #fafafa;
+        background-color: #fafafa;
+        color: #3a3a3a;
     }
 }
 
 #dow    {
-    background-color: #4d4dff;
+    background-color: #FFAEBC;
 }
 
 #doh    {
@@ -94,12 +90,13 @@ a > div:hover {
 }
 
 #giveaway   {
-    background-color: #8600ff;
+    background-color: #C9A9DB;
     width: 80%;
     height: 100px;
     margin: 20px 10%;
 }
 
+/*  trailer section */
 #trailer    {
     text-align: center;
     color: #fafafa;
@@ -107,7 +104,7 @@ a > div:hover {
     font-size: 240%;
 }
 
-/* style footer*/
+/* style footer */
 footer  {
     display: inline-flex;
     width: 100%;
@@ -137,6 +134,10 @@ footer  {
     display: inline-block;
     margin: 0 40px;
     font-size: 280%;
+}
+
+#social-networks ul li:hover{
+    color: #fafafa;
 }
 
 /*  media queries  */

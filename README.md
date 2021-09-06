@@ -68,11 +68,29 @@ The content and images may be different, but these three website build by the sa
 * Add a house purchasing and furnish guide.
 
 ## =Testing=
-* All things have been tested in different screen sizes, only in galaxy fold will be invalid.
-* All links have been checked and direct to the correct pages.
-* All links to external websites open in a new browser.
-* All buttonanimation in index.html and the nav bar are functional when user hover over the link.
+### Functional test
+* All animation in index.html(enterance section) and the nav bar in the other four pages are all functional when user hover over the link.
 * Video in index.html is functional and responsive by CSS.
+
+#### Responsive Design
+I used google DevTools to check different size of screens and their responsive design.
+Everythings seems right in place.
+
+#### Links
+##### index.html
+There four links in enterence section, 
+one link in trial section and four external link in footer.
+They are all direct to right page with correct target.
+#### dow.html, doh.html, dol.html
+There are five internal links in nav bar, 
+eight internal links in submenu and four external links in footer.
+They are all direct to right page with correct target.
+#### giveaway.html
+There are five internal links in nav bar, 
+and four external links in footer.
+They are all direct to right page with correct target.
+The submit button are functional, but without the action link error message will response to user.
+
 ### Validator Testing
 Following test are using [HTML - W3C HTML Validator](https://validator.w3.org/) and [CSS - Jigsaw CSS Validator]().
 #### HTTP test
@@ -106,8 +124,8 @@ And the result is in following:
 
 
 ### Unfixed Bugs
-The lower result prblem in index.html seems related to design problem and need to be re-design.
-I have tried my best but this page will be re-design in future.
+Design of index.html and the sub menu in guide pages is not good enough but I have try my best.
+Maybe there are still have some responsive design problem I missed or I cannot find out.
 
 
 ## =Deployment=
@@ -140,3 +158,6 @@ The website use git for version control, and deploy in Github by following step:
 * CSS - Jigsaw Validator
 * Gitpod
 * Github
+
+Acknowledgment
+Sincerely thanks to my mentor Daisy McGirr for all support and guidance in the process.
