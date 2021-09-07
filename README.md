@@ -2,6 +2,7 @@
 # Milestone Project 1
 ![screen-capture](readme-img/showondevices.png)
 
+You can click this link to the living [website](https://cloki0610.github.io/CI-Portfolio-Project-1/)
 ## =Purpose=
 FF14 is one of most well-known MMORPG in the world. And there are few different FF14 game database and many tools to fulfill their need. But there are too many information prepare to those new players. Instead of 'what I can do', 'what I should do first' are always be the first question to them. Some of them even never play any MMORPG or console game before. So this website will provide a simple guide to help those beginners.
 
