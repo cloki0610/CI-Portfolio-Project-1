@@ -107,6 +107,7 @@ a {
 /* style submenu */
 
 aside   {
+    background-color: gray;
     font-size: 100%;
     float: left;
     width: 30%;
