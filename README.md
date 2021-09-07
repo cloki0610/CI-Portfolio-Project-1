@@ -1,4 +1,4 @@
-# Just for Begginers - Final Fantasy 14's Beginners Guide
+# Just for Beginners - Final Fantasy 14's Beginners Guide
 # Milestone Project 1
 ![screen-capture](readme-img/showondevices.png)
 
